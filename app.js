@@ -358,10 +358,9 @@
 // var enterName = prompt("Enter your Name");
 // document.write("Hello "+enterName+"! Welcome to my website.");
 
-// 04)-----------------------------------------------
+// 04)----------------------table-------------------------
 
 // var enterNumber =prompt("Enter any Number");
-
 // var value1 = enterNumber*1;
 // var value2 = enterNumber*2;
 // var value3 = enterNumber*3;
@@ -373,6 +372,21 @@
 // var value9 = enterNumber*9;
 // var value10 = enterNumber*10;
 
+// if(enterNumber==""){
+//     document.write("5 x 1 =",5*1,"<br>");
+//     document.write("5 x 1 =",5*2,"<br>");
+//     document.write("5 x 1 =",5*3,"<br>");
+//     document.write("5 x 1 =",5*4,"<br>");
+//     document.write("5 x 1 =",5*5,"<br>");
+//     document.write("5 x 1 =",5*6,"<br>");
+//     document.write("5 x 1 =",5*7,"<br>");
+//     document.write("5 x 1 =",5*8,"<br>");
+//     document.write("5 x 1 =",5*9,"<br>");
+//     document.write("5 x 1 =",5*10,"<br>");
+ 
+
+// }else{
+    
 // document.write("The Table of "+enterNumber ,"<br><br>");
 // document.write(enterNumber+"x1=" + value1 + "<br>")
 // document.write(enterNumber+"x2=" + value2 + "<br>")
@@ -384,38 +398,42 @@
 // document.write(enterNumber+"x9=" + value9 + "<br>")
 // document.write(enterNumber+"x10=" + value10 + "<br>")
 
-// 06)--------------------------------------------------
-
-var subject1=prompt("Enter Subject1 Name");
-var subject2=prompt("Enter Subject2 Name");
-var subject3=prompt("Enter Subject3 Name");
-var ts = "Total Marks "
-var marks1 =+prompt("Enter Subject1 Obtained Marks");
-var marks2 =+prompt("Enter Subject2 Obtained Marks");
-var marks3 =+prompt("Enter Subject3 Obtained Marks");
-
-var tMarks = 100;
-var totalMarks = tMarks*3;
-var totalobtMarks = marks1+marks2+marks3;
-
-var percent1 = marks1*100/tMarks;
-var percent2 = marks2*100/tMarks;
-var percent3 = marks3*100/tMarks;
-
-var percentAge = totalobtMarks*100/totalMarks;
-
-document.write("<table border='1' cellspacing='0' cellpadding='5'> " );
-
-document.write("<tr><th>Subjects</th><th>Total Marks</th><th>Obtained Marks</th><th>Percentage%</th></tr>");
-
-document.write("<tr><td>"+subject1+"</td>"+"<td>"+tMarks+"</td>"+"<td>"+marks1+"</td>"+"<td>"+percent1+"%"+"</td></tr>");
-document.write("<tr><td>"+subject2+"</td>"+"<td>"+tMarks+"</td>"+"<td>"+marks2+"</td>"+"<td>"+percent2+"%"+"</td></tr>");
-document.write("<tr><td>"+subject3+"</td>"+"<td>"+tMarks+"</td>"+"<td>"+marks3+"</td>"+"<td>"+percent3+"%"+"</td></tr>");
+// }
 
 
 
 
-document.write("<tr>"+"<td>"+ts+"</td>"+"<td>"+totalMarks+"</td>"+"<td>"+totalobtMarks+"</td>"+"<td>"+percentAge+"%"+"</td></tr></table>");
+
+
+// 06)---------------------MarkSheet-----------------------------
+
+// var subject1=prompt("Enter Subject1 Name");
+// var subject2=prompt("Enter Subject2 Name");
+// var subject3=prompt("Enter Subject3 Name");
+// var ts = "Total Marks "
+// var marks1 =+prompt("Enter Subject1 Obtained Marks");
+// var marks2 =+prompt("Enter Subject2 Obtained Marks");
+// var marks3 =+prompt("Enter Subject3 Obtained Marks");
+
+// var tMarks = 100;
+// var totalMarks = tMarks*3;
+// var totalobtMarks = marks1+marks2+marks3;
+
+// var percent1 = marks1*100/tMarks;
+// var percent2 = marks2*100/tMarks;
+// var percent3 = marks3*100/tMarks;
+
+// var percentAge = totalobtMarks*100/totalMarks;
+
+// document.write("<table border='1' cellspacing='0' cellpadding='5'> " );
+
+// document.write("<tr><th>Subjects</th><th>Total Marks</th><th>Obtained Marks</th><th>Percentage%</th></tr>");
+
+// document.write("<tr><td>"+subject1+"</td>"+"<td>"+tMarks+"</td>"+"<td>"+marks1+"</td>"+"<td>"+percent1+"%"+"</td></tr>");
+// document.write("<tr><td>"+subject2+"</td>"+"<td>"+tMarks+"</td>"+"<td>"+marks2+"</td>"+"<td>"+percent2+"%"+"</td></tr>");
+// document.write("<tr><td>"+subject3+"</td>"+"<td>"+tMarks+"</td>"+"<td>"+marks3+"</td>"+"<td>"+percent3+"%"+"</td></tr>");
+
+// document.write("<tr>"+"<td>"+ts+"</td>"+"<td>"+totalMarks+"</td>"+"<td>"+totalobtMarks+"</td>"+"<td>"+percentAge+"%"+"</td></tr></table>");
 
 
 
